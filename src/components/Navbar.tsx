@@ -27,7 +27,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
-          <img src="logo-wk.png" alt="Logo" className="h-8 w-auto mr-2" />
+          <img src="/images/logo-wk.png" alt="Logo" className="h-8 w-auto mr-2" />
           <span className="text-xl font-bold text-sky-400">Portfolio Walid Kherchouch</span>
           </div>
           

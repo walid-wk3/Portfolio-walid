@@ -53,7 +53,7 @@ export function Home() {
     <div className="max-w-4xl mx-auto space-y-8">
       <div className="text-center">
         <img 
-          src="icon.jpg"
+          src="/images/icon.jpg"
           alt="Photo de profil"
           className="w-48 h-48 rounded-full mx-auto object-cover shadow-xl border-4 border-sky-400/20"
         />

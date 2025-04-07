@@ -5,11 +5,11 @@ import { Footer } from '../components/Footer';
 export function Projects() {
   const projectVVA = [
     {
-      url: "vva-acceuil.jpg",
+      url: "/images/vva-acceuil.jpg",
       alt: "acceuil"
     },
     {
-      url: "vva-connexion.jpg",
+      url: "/images/vva-connexion.jpg",
       alt: "connexion"
     },
      
@@ -18,28 +18,28 @@ export function Projects() {
 
   const projectAPI = [
     {
-      url: "connexion-api.jpg",
+      url: "/images/connexion-api.jpg",
       alt: "connexion"
     },
     {
-      url: "inscription-api.jpg",
+      url: "/images/inscription-api.jpg",
       alt: "inscription"
     },
     {
-      url: "acceuil-api.jpg",
+      url: "/images/acceuil-api.jpg",
       alt: "acceuil"
     },
 
     {
-      url: "interface-api.jpg",
+      url: "/images/interface-api.jpg",
       alt: "interface"
     },
     {
-      url: "recherche-api.jpg",
+      url: "/images/recherche-api.jpg",
       alt: "recherche"
     },
     {
-      url: "gestion-favoris-api.jpg",
+      url: "/images/gestion-favoris-api.jpg",
       alt: "gestion favoris"
     }
   ];
@@ -48,50 +48,50 @@ export function Projects() {
 
   const projectCinéma = [
     {
-      url: "acceuill-cinema.jpg",
+      url: "/images/acceuill-cinema.jpg",
       alt: "acceuil"
     },
     {
-      url: "connexion-cinema.jpg",
+      url: "/images/connexion-cinema.jpg",
       alt: "connexion"
     },
     {
-      url: "inscription-cinema.jpg",
+      url: "/images/inscription-cinema.jpg",
       alt: "inscription"
     },
 
     {
-      url: "films-cinema.jpg",
+      url: "/images/films-cinema.jpg",
       alt: "films"
     },
     {
-      url: "compte-cinema.jpg",
+      url: "/images/compte-cinema.jpg",
       alt: "compte"
     },
     {
-      url: "utilisateur-cinema.jpg",
+      url: "/images/utilisateur-cinema.jpg",
       alt: "utilisateur"
     },
 
     {
-      url: "film-cinema.jpg",
+      url: "/images/film-cinema.jpg",
       alt: "film"
     },
     {
-      url: "reservation-cinema.jpg",
+      url: "/images/reservation-cinema.jpg",
       alt: "reservation"
     },
     {
-      url: "admin-cinema.jpg",
+      url: "/images/admin-cinema.jpg",
       alt: "admin"
     },
 
     {
-      url: "programmation-projection.jpg",
+      url: "/images/programmation-projection.jpg",
       alt: "projection"
     },
     {
-      url: "gestion-membres.jpg",
+      url: "/images/gestion-membres.jpg",
       alt: "gestion membres"
     }
 
@@ -101,55 +101,55 @@ export function Projects() {
 
   const projectBibliothèque = [
     {
-      url: "acceuil-bibliotheque.jpg",
+      url: "/images/acceuil-bibliotheque.jpg",
       alt: "acceuil"
     },
     {
-      url: "consulte-utilisateurs.jpg",
+      url: "/images/consulte-utilisateurs.jpg",
       alt: "consulte"
     },
     {
-      url: "connexion-bibliothéque.jpg",
+      url: "/images/connexion-bibliothéque.jpg",
       alt: "connexion"
     },
 
     {
-      url: "inscription-bibliotheque.jpg",
+      url: "/images/inscription-bibliotheque.jpg",
       alt: "inscription"
     },
 
     {
-      url: "espace-membre.jpg",
+      url: "/images/espace-membre.jpg",
       alt: "membre"
     },
 
     {
-      url: "consulte-membres.jpg",
+      url: "/images/consulte-membres.jpg",
       alt: "consulte-membre"
     },
 
     { 
-      url: "admin-bibliotheque.jpg",
+      url: "/images/admin-bibliotheque.jpg",
       alt: "admin"
     },
     {
-      url: "ajout-admin.jpg",
+      url: "/images/ajout-admin.jpg",
       alt: "connexion"
     },
 
     {
-      url: "update-livre.jpg",
+      url: "/images/update-livre.jpg",
       alt: "update"
     },
 
 
     {
-      url: "delete-livres.jpg",
+      url: "/images/delete-livres.jpg",
       alt: "delete"
     },
 
     {
-      url: "gestion-emprunt.jpg",
+      url: "/images/gestion-emprunt.jpg",
       alt: "connexion"
     }
   ];

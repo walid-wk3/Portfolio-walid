@@ -10,7 +10,7 @@ export function Stages() {
         <div className="space-y-4">
           <div className="flex items-center space-x-4">
             <img
-              src="logo_nativid.webp"
+              src="/images/logo_nativid.webp"
               alt="Logo entreprise"
               className="w-16 h-16 rounded-lg object-cover"
             />
@@ -47,7 +47,7 @@ export function Stages() {
         <div className="space-y-4">
           <div className="flex items-center space-x-4">
             <img
-              src="logo-qalam.jpeg"
+              src="/images/logo-qalam.jpeg"
               alt="Logo entreprise"
               className="w-16 h-16 rounded-lg object-cover"
             />
@@ -71,7 +71,7 @@ export function Stages() {
                  facilitant ainsi l'interaction avec les données Microsoft 365 et permettant d'optimiser la gestion des informations des employés.
             </p>
             <h3 className="text-lg font-semibold mb-2">Exemple d'une page réalisé</h3>
-            <a href="outlook.jpg" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-sky-400 hover:text-sky-300 transition-colors">
+            <a href="/images/outlook.jpg" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-sky-400 hover:text-sky-300 transition-colors">
               <ExternalLink size={18} />
               <span>Voir le projet</span>
             </a>

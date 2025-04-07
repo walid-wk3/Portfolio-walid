@@ -5,15 +5,15 @@ import { Footer } from '../components/Footer';
 export function Veille() {
   const veilleImages = [
     {
-      url: "puce-neuromorphique.jpg",
+      url: "/images/puce-neuromorphique.jpg",
       alt: "Puces Neuromorphiques"
     },
     {
-      url: "puce.webp",
+      url: "/images/puce.webp",
       alt: "Puces Neuromorphiques"
     },
     {
-      url: "ia.jpeg",
+      url: "/images/ia.jpeg",
       alt: "Technologie Cognitive"
     },
   ];
@@ -81,7 +81,7 @@ export function Veille() {
         <div className="grid md:grid-cols-2 gap-6">
           <div className="p-6 glass-effect rounded-xl">
             <img 
-              src="google-news.jpg"
+              src="/images/google-news.jpg"
               alt="google news"
               className="rounded-lg mb-4 object-cover w-full h-48"
             />
@@ -102,7 +102,7 @@ export function Veille() {
           </div>
           <div className="p-6 glass-effect rounded-xl">
             <img 
-              src="google-alerte.jpg"
+              src="/images/google-alerte.jpg"
               alt="Google Alerts Interface"
               className="rounded-lg mb-4 object-cover w-full h-48"
             />
