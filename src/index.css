@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background: linear-gradient(to bottom, #0B0014, #1A0B2E);
+    color: #e2e8f0;
+    min-height: 100vh;
+  }
+
+  .light-theme body {
+    background: linear-gradient(to bottom, #1A0B2E, #2D1B4E);
+    color: #f0f9ff;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(149, 76, 233, 0.3);
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(149, 76, 233, 0.5);
+  }
+}
+
+.glass-effect {
+  background: rgba(149, 76, 233, 0.05);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(149, 76, 233, 0.1);
+  transition: all 0.3s ease;
+}
+
+.light-theme .glass-effect {
+  background: rgba(149, 76, 233, 0.1);
+  border: 1px solid rgba(149, 76, 233, 0.2);
+}
+
+.glass-effect:hover {
+  border-color: rgba(149, 76, 233, 0.3);
+  box-shadow: 0 0 20px rgba(149, 76, 233, 0.2);
+}
+
+.skill-card {
+  @apply glass-effect rounded-xl p-4 transition-all duration-300;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(149, 76, 233, 0.2);
+}
+
+.swiper-slide {
+  opacity: 0 !important;
+  transition: opacity 0.3s ease;
+}
+
+.swiper-slide-active {
+  opacity: 1 !important;
+}
+
+.light-theme {
+  --tw-text-opacity: 1;
+  --tw-bg-opacity: 1;
+}
+
+.light-theme .text-gray-300 {
+  color: #f0f9ff;
+}
+
+.light-theme .text-sky-400 {
+  color: #38bdf8;
+}
